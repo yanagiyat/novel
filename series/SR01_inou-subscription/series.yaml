@@ -1,0 +1,39 @@
+series_id: SR01
+title: "異能サブスクリプション ～無課金の底辺ハッカー、詐欺UIで最強エリートを破産に追い込む～"
+genre: [サイバーパンク, 異能バトル, ライトノベル]
+summary: |
+  全人類が脳内チップで異能（SaaS）を月額課金する階層都市ネオ・トウキョウ。
+  無課金の底辺ハッカー・クロヤは、悪質サブスクで両親を失った復讐のため、
+  詐欺UI・ソーシャルエンジニアリング・ゼロ距離物理ハックという
+  「課金額ゼロの頭脳戦」で最強の課金エリートたちを破産に追い込んでいく。
+world_exposure: medium
+tone: [コメディ, 風刺, 熱血, サイバーパンク]
+default_pov: first_person
+style_guide:
+  style_pattern: 1
+  episode_length: 3000
+  dialogue_density: high
+  description_density: medium
+  exposition_density: medium
+  tempo: fast
+main_characters: [CHAR-SR01-0001, CHAR-SR01-0002]
+main_locations: [LOC-SR01-0001, LOC-SR01-0002, LOC-SR01-0003]
+main_organizations: [ORG-SR01-0001]
+core_emotions: [痛快, 反骨, 皮肉, 友情]
+core_themes:
+  - "IT・サブスクリプション社会の闇とあるあるネタの風刺"
+  - "物理法則とITロジックに基づく、ご都合主義のない頭脳戦"
+  - "理不尽な巨大システムに対する、底辺からの論理的カウンター"
+status:
+  current_episode: 0
+  canonized_episode: 0
+  published_episode: 0
+crossover_policy:
+  automatic_crossover: false
+  require_user_confirmation: true
+timeline_policy:
+  uses_global_timeline: true
+  local_timeline_required: true
+notes: |
+  バトルロジックの核心：主人公は遠隔ハッキング（魔法のようなチート）は一切できない。
+  すべての戦術は物理接触・心理操作・規約の論理的矛盾を突く手法に限定される。

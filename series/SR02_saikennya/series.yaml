@@ -1,0 +1,64 @@
+series_id: SR02
+title: "再建屋"
+genre: [クライム・サスペンス, 群像劇, 社会派]
+summary: |
+  元国税局調査官の黛 奏は、正義を貫こうとして人生を破壊された。
+  彼女を潰したのは暴力ではない。信用の破壊、経済的締め上げ、人間関係の崩壊工作——
+  戦後から暗躍する秘匿組織「調停機構」の手口だった。
+  奏は同じく機構に人生を壊された者たちを集め、新たな組織を立ち上げる。
+  証拠が残らない敵に、どう戦うのか。組織は誰のために動くのか。
+  100話で描く、底辺からの静かな反撃と組織論の物語。
+world_exposure: low
+tone: [サスペンス, 抑制, 緊張, 群像劇]
+default_pov: first_person
+style_guide:
+  style_pattern: 2
+  style_note: |
+    基本は奏の一人称視点。章ごとに視点キャラを変える群像スタイルを挟む。
+    奏以外の視点章では、奏が各キャラにどう見えているかを描く。
+    トーンは抑制基調。感情の爆発は極めて少ない（御手洗の一度の号泣のみ例外）。
+    奏の感情は行動と観察を通じて間接的に描写。直接的な感情表現は最小限。
+    会話は短く、情報の非対称を意識する。登場人物は全員何かを隠している。
+    台詞で説明しすぎない。キャラクターの個性は台詞より行動で示す。
+  episode_length: 3000
+  dialogue_density: low
+  description_density: high
+  exposition_density: low
+  tempo: slow
+main_characters: [CHAR-SR02-0001, CHAR-SR02-0002, CHAR-SR02-0003, CHAR-SR02-0004, CHAR-SR02-0005]
+main_locations: [LOC-SR02-0001]
+main_organizations: [ORG-SR02-0001, ORG-SR02-0002]
+core_emotions: [知的執念, 静かな怒り, 不完全な信頼, 組織の矜持]
+core_themes:
+  - "組織は誰かの正義のために動けるか、それとも組織自体の維持のために動くのか"
+  - "正しい手段と正しい目的の両立"
+  - "主人公の強さではなく、組織としての強さを最後の拠り所にする"
+status:
+  current_episode: 0
+  canonized_episode: 0
+  published_episode: 0
+crossover_policy:
+  automatic_crossover: false
+  require_user_confirmation: true
+timeline_policy:
+  uses_global_timeline: true
+  local_timeline_required: true
+episode_policy:
+  - "1話ごとに読後感を与える"
+  - "謎がひとつ解けて新しい謎がひとつ生まれるリズムを基本とする"
+  - "各アークでトーンと主軸を変えてワンパターンを防ぐ"
+  - "プロットは骨格のみ固定し、執筆中の自然な展開への転換を許容する"
+ending_policy: "奏が同じ手を使いかけた瞬間があったが、チームが止めた、という着地にする"
+volume_structure:
+  vol1: {episodes: "1-22", title: "封筒と解体屋"}
+  vol2: {episodes: "23-42", title: "地図と燃え残り"}
+  vol3: {episodes: "43-62", title: "割れる前夜"}
+  vol4_plus: {note: "4巻以降は調停機構の中枢へ向かう"}
+p25ml_integration:
+  note: |
+    調停機構は P25ML 共有世界の「秘匿結社」系統に位置づけられる。
+    ただし異常系統（超能力・怪異等）には直接関与しない、純粋に世俗的な秘匿組織。
+    特管局（ORG-G-0006）とは存在を互いに認知している可能性があるが、本編では触れない。
+    共有インフラ企業（エンリング、アルカID等）は日常描写の背景として自然に使用可能。
+notes: |
+  奏の感情が崩れるタイミングはあえて固定しない。執筆中に最も自然な場所に置く。

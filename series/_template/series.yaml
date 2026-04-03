@@ -1,0 +1,29 @@
+series_id: SRXX
+title: ""
+genre: []
+summary: ""
+world_exposure: low
+tone: []
+default_pov: third_person_past
+style_guide:
+  style_pattern: 1
+  episode_length: 3000
+  dialogue_density: medium
+  description_density: medium
+  exposition_density: low
+  tempo: medium_fast
+main_characters: []
+main_locations: []
+main_organizations: []
+core_emotions: []
+status:
+  current_episode: 0
+  canonized_episode: 0
+  published_episode: 0
+crossover_policy:
+  automatic_crossover: false
+  require_user_confirmation: true
+timeline_policy:
+  uses_global_timeline: true
+  local_timeline_required: true
+notes: ""
