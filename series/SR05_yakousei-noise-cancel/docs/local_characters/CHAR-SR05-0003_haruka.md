@@ -1,6 +1,6 @@
 ---
 id: CHAR-SR05-0003
-name: "サヤカ"
+name: "ハルカ"
 aliases: ["空白（ブランク）"]
 type: character
 species: human
