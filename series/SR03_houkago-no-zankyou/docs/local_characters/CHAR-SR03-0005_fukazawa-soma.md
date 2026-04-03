@@ -1,6 +1,6 @@
 ---
 id: CHAR-SR03-0005
-name: "久我 颯真（くが そうま）"
+name: "深澤 颯真（ふかざわ そうま）"
 aliases: []
 type: character
 species: human

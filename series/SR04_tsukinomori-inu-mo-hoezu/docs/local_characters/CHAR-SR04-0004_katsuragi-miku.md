@@ -1,6 +1,6 @@
 ---
 id: CHAR-SR04-0004
-name: "朝倉 実玖（あさくら みく）"
+name: "葛城 実玖（かつらぎ みく）"
 aliases: []
 type: character
 species: human
