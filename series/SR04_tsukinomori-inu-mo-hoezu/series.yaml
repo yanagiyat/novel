@@ -1,0 +1,103 @@
+series_id: SR04
+title: "槻ノ森、犬も吠えず"
+genre: [ミステリー・謎解き, 群像劇, クライム]
+summary: |
+  「異常が波及しにくい静穏地帯」として知られる槻ノ森市で、
+  元刑事の私立探偵・神崎鶫と地元の情報屋ライター・綿貫律が、
+  互いに邪魔にしながら同じ事件を追い続ける。
+  街では「一度解決した事件の関係者」が数年後に静かに消える。
+  その連鎖の先には、街の「静けさ」の正体が薄ぼんやりと見えてくる。
+  各話の小謎は必ず人間の側の事情で解決されるが、
+  解決の後に「なぜここでこれが起きたのか」という微妙な余白が残り続ける。
+world_exposure: low
+tone: [ドライ・クール, 群像・交差]
+default_pov: third_person_limited
+style_guide:
+  style_pattern: 2
+  style_note: |
+    基本はハード＆ロジカル文体（パターン2）。
+    鶫の視点章は純粋なパターン2。
+    律の視点章のみパターン5（饒舌・言葉遊び）の要素を薄く混ぜる。
+    小謎は毎話の解決を重視。ただし解決後に余白を残す構造。
+    異常ノイズは直接描写せず「痕跡」「結果」として登場させる。
+  episode_length: 3000
+  dialogue_density: medium
+  description_density: high
+  exposition_density: low
+  tempo: medium_fast
+main_characters:
+  - CHAR-SR04-0001  # 神崎鶫
+  - CHAR-SR04-0002  # 綿貫律
+main_locations:
+  - LOC-G-0003      # 槻ノ森市（グローバル資産）
+  - LOC-SR04-0001   # 桐嶋探偵事務所
+  - LOC-SR04-0002   # ジャグチ質店
+  - LOC-SR04-0003   # 槻ノ森大学
+  - LOC-SR04-0004   # 西雑木林
+main_organizations: []
+core_emotions: [不信, 違和感, 執念, 諦観, 折り合い]
+core_themes:
+  - "説明できないことと、折り合いをつけて生きること"
+  - "街という共同体が共有している「見ないこと」の構造"
+  - "奏と律の違いは、そこに向き合う方法の違いでもある"
+status:
+  current_episode: 0
+  canonized_episode: 0
+  published_episode: 0
+crossover_policy:
+  automatic_crossover: false
+  require_user_confirmation: true
+timeline_policy:
+  uses_global_timeline: true
+  local_timeline_required: true
+episode_policy:
+  - "各話に小謎を置き、必ず人間側の事情で解決する"
+  - "解決後に「なぜここでこれが起きたのか」の余白を残す"
+  - "異常ノイズの頻度はアークごとに段階的に上げる"
+  - "小謎と大謎を両輪で回す"
+  - "依頼人のその後を追うことで連鎖を浮かばせる"
+ending_policy: |
+  人間側の黒幕は解決。根本の謎（街の静穏の正体）は未解決のまま幕を閉じる。
+  鶫は新しい依頼人を迎え入れ、律は新しい記事を書き始める。
+  雑木林の奥は相変わらず誰も入らない。
+volume_structure:
+  vol1: {episodes: "1-22", title: "開業と鉢合わせ"}
+  vol2: {episodes: "23-42", title: "失踪リスト"}
+  vol3: {episodes: "43-62", title: "旧家と大学の影"}
+  vol4_plus: {note: "4巻以降は街の根本へ向かう"}
+core_rule: |
+  「この街では、見た者は消える。でも殺されるわけではない」
+  失踪者は死体で発見されない。行方不明のまま処理される。
+  鶫が「組織的な証拠隠滅」と解釈し、
+  律が「そういう話じゃないと思う」と感じる——この認識のズレが全編を通じた緊張の核。
+abnormality:
+  primary_systems: [7, 8]  # 怪異、異界
+  design: |
+    槻ノ森の「静穏」を維持するなんらかの仕組みの実体。
+    物語では直接描かれず、「見た人間がどうなったか」という痕跡としてのみ登場する。
+    西雑木林の奥に存在する可能性が示唆される異界的空間。物語を通じて確定されない。
+  noise_frequency:
+    arc1: "5話に1回"
+    arc2: "3話に1回"
+    arc3: "2話に1回"
+    arc4: "毎話薄く"
+    arc5: "毎話・深く"
+episode_density:
+  arc1: {small_mystery: "毎話", arc_mystery: "なし", world_noise: "5話に1回"}
+  arc2: {small_mystery: "毎話", arc_mystery: "進行中", world_noise: "3話に1回"}
+  arc3: {small_mystery: "毎話", arc_mystery: "進行中", world_noise: "2話に1回"}
+  arc4: {small_mystery: "8割", arc_mystery: "クライマックス", world_noise: "毎話薄く"}
+  arc5: {small_mystery: "5割", arc_mystery: "解決", world_noise: "毎話・深く"}
+p25ml_integration:
+  note: |
+    world_exposure: low — 裏設定は背景ノイズ程度。
+    舞台は P25ML 共有資産の槻ノ森市（LOC-G-0003）を使用。
+    共有インフラ企業の使用:
+    - 玄庫ロジスティクス（ORG-G-0001）: 地域倉庫が背景として登場。管理員が失踪者リストに載る
+    - エンリング（ORG-G-0002）: 槻ノ森関連ハッシュタグが検索に引っかからない事実（追いきれない）
+    - オブシディアン（ORG-G-0009）: 蛇口良平を通じた末端接触
+    上位組織（特管局・星流会・蓮華院・夜漏守）は使用しない。
+    異常系統は怪異（7）と異界（8）を使用するが、直接描写せず痕跡のみ。
+notes: |
+  ※元仕様の「桐嶋 奏」はSR02の「桐嶋 徹」（同姓）「黛 奏」（同名）と衝突するため
+  「神崎 鶫（かんざき つぐみ）」に変更。
