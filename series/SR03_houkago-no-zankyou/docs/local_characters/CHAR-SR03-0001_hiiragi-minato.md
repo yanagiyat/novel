@@ -1,6 +1,6 @@
 ---
 id: CHAR-SR03-0001
-name: "瀬尾 湊（せお みなと）"
+name: "柊 湊（ひいらぎ みなと）"
 aliases: []
 type: character
 species: human
