@@ -1,0 +1,47 @@
+series_id: SR06
+title: "身バレしたので、DAOを焼きます。"
+subtitle: "十七歳、運営者不明"
+genre: [青春クライムサスペンス, 現代テック成長譚, ラノベ, ジュブナイル頭脳戦]
+summary: |
+  匿名で巨大な相互扶助ネットワーク「Relay」を育てた高校二年生の奥谷直人が、
+  限定的な身バレをきっかけに現実の大人たちの思惑に巻き込まれていく。
+  裏社会の危機管理コンサル・御影燈子に導かれ、
+  「仕組みを作る頭脳」から「生き残る大人」へと成長する物語。
+world_exposure: low
+tone: "現代ラノベ寄り。軽妙で皮肉がありエッジが効いた会話。ただし現実の痛みがある"
+setting_era: "現代（2025年〜）"
+primary_location: "霞崎区（東京都心型の架空区）"
+total_episodes_planned: 100
+episode_structure: "第1部50話＋第2部50話"
+default_pov: third_person_past
+style_guide:
+  style_pattern: 1
+  episode_length: 3000
+  dialogue_density: high
+  description_density: medium
+  exposition_density: medium
+  tempo: medium_fast
+main_characters: []
+main_locations: []
+main_organizations: []
+core_emotions: [焦燥, 矜持, 喪失, 再起]
+core_themes:
+  - "技術は中立だが、使う人間は中立じゃない"
+  - "善意と情報不足が生む最悪の結果"
+  - "匿名性の自由と監獄の二面性"
+  - "普通でいるための技術を覚える成長"
+status:
+  current_episode: 0
+  canonized_episode: 0
+  published_episode: 0
+  phase: "プロット完了・執筆前"
+crossover_policy:
+  automatic_crossover: false
+  require_user_confirmation: true
+timeline_policy:
+  uses_global_timeline: true
+  local_timeline_required: true
+notes: |
+  第1部：直人がRelayの中核権限を自ら手放すまで。
+  第2部：Relayの残骸が悪用される中、「止める側・終わらせる側」として動く。
+  普通を失わなかったのではなく、普通でいるための技術を覚えた状態で終わる物語。
